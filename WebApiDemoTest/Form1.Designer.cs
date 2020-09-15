@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label1 = new System.Windows.Forms.Label();
             this.tb_Uri = new System.Windows.Forms.TextBox();
             this.tb_data = new System.Windows.Forms.TextBox();
@@ -157,6 +158,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.ClientSize = new System.Drawing.Size(800, 534);
             this.Controls.Add(this.cb_ContentType);
             this.Controls.Add(this.label3);
@@ -169,8 +171,9 @@
             this.Controls.Add(this.tb_data);
             this.Controls.Add(this.tb_Uri);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "WebApiDemoTest";
             this.ResumeLayout(false);
             this.PerformLayout();
 

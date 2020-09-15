@@ -25,9 +25,9 @@ namespace WebApiDemoTest
         public Form1()
         {
             InitializeComponent();
-            tb_Uri.Text = "https://digital-test.tfmi.com.tw/TFMI-B2B/fire247/premInquiry";
+            tb_Uri.Text = "https://localhost/premInquiry";
             tb_UserAgent.Text = "demo";
-            tb_data.Text = "{\"_key\":\"index\",\"_value\":{\"CASE_SN\":\"\",\"inscompany\":\"01\",\"packagecode\":\"041\",\"policyperiod\":\"2020-09-11\",\"effectdate\":\"2021-09-11\",\"county\":\"新北市\",\"district\":\"萬里區\",\"zipcode\":\"207\",\"BLD_ADDR\":\"111村1鄰1112段1巷1弄1-1號\",\"BLDMATE_CD\":\"01\",\"BLDROOFMATE_CD\":\"RFR\",\"BLD_FLS\":\"12\",\"BLD_AREA\":\"50\",\"fireamt\":\"2000000\"}}";
+            tb_data.Text = "{\"_key\":\"index\",\"_value\":{\"CASE_SN\":\"\",\"CASE_TYPE\":\"01\"}}";
             cb_ContentType.Text = "application/json";
         }
         private void bt_webclient_Click(object sender, EventArgs e)
